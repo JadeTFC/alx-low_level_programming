@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main -Entry point
+ * main - Entry point
  *
  * Description: Print letters in reverse.
  *
@@ -9,10 +9,9 @@
  */
 int main(void)
 {
-
 char ac;
-char ASCII ='\n';
-for (ac = 'z'; ac >= 'a'; ac++)
+char ASCII = '\n';
+for (ac = 'z'; ac >= 'a'; ac--)
 {
 putchar(ac);
 }
