@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * _isdigit - checks if the number is b/n 0 to 9
- * @c: input number
- * Return: 0
+ * _isdigit - if is a digit
+ * @c: print int
+ * Return: Always ).
  */
+
 int _isdigit(int c)
 {
 if (c >= 48 && c <= 57)
@@ -14,5 +15,4 @@ else
 {
 return (0);
 }
-_putchar('\n');
 }
